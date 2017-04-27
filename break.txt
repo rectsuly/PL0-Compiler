@@ -1,0 +1,15 @@
+//打印输出上三角矩阵
+var i,j,k;
+begin
+  k := 0;
+  for(j :=0 ; j < 5 ; j := j +1)
+  begin
+  for(i := 0 ; i < 5 ; i := i +1)
+	begin
+	k := k + 1;
+	print(k);
+	if i+j=4 then break;
+	end;
+	print();
+  end;
+end.

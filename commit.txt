@@ -1,0 +1,9 @@
+var i,j; 
+begin    
+  i := -1;
+  if i > 0 then 
+    i := 1 ;
+  //else 
+  /* i := 0;*/ 
+  j := i * 1;
+end.

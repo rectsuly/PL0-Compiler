@@ -1,0 +1,17 @@
+/*打印输出对角线为0的矩阵*/
+var i,j,k;
+begin
+  k := 0;
+  for(j :=0 ; j < 5 ; j := j +1)
+  begin
+  for(i := 0 ; i < 5 ; i := i +1)
+	begin
+	k := k + 1;
+	if i+j=4 then 
+		print(0);
+	else
+		print(k);
+	end;
+	print();
+  end;
+end.

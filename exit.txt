@@ -1,0 +1,15 @@
+var i,j;
+procedure p;
+begin
+  i := 2;		//在函数中遇到exit语句退出，i被赋值为2，j没有被赋值为2
+  exit;
+  j := 2;
+end;
+begin
+  j := 0;
+  i := 1;
+  call p;
+  j := j+i;
+  print(j);
+  print();
+end.
